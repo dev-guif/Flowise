@@ -165,7 +165,7 @@ const Chatflows = () => {
                             </ToggleButton>
                         </ToggleButtonGroup>
                         <StyledButton variant='contained' onClick={addNew} startIcon={<IconPlus />} sx={{ borderRadius: 2, height: 40 }}>
-                            Add New
+                            Novo
                         </StyledButton>
                     </ViewHeader>
                     {!view || view === 'card' ? (
